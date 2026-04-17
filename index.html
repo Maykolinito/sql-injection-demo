@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Demo - SQL Injection</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Iniciar Sesión (DEMO VULNERABLE)</h2>
+    <form action="authenticate.php" method="POST">
+        <label>Usuario:</label>
+        <input type="text" name="username" placeholder="Ingresa usuario"><br><br>
+        <label>Contraseña:</label>
+        <input type="password" name="password" placeholder="Ingresa contraseña"><br><br>
+        <input type="submit" value="Entrar">
+    </form>
+    <p><strong>Advertencia:</strong> Este código es vulnerable a inyección SQL. Solo para fines educativos.</p>
+</body>
+</html>
